@@ -1,1 +1,117 @@
-project 1 goes here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px #aaa;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+        }
+        .header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        hr {
+            border: 1px solid #ccc;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div>
+                <h1>Kamya Jackson</h1>
+                <p>Email: Kamyadjackson12@gmail.com 
+            </div>
+            <img src="pictures.jpg" alt="My headshot">
+        </div>
+        <hr>
+        
+        <h2>Education</h2>
+        <p>Computer Science - Benedict College 2024-current </p>
+        <p>Highschool Diploma - Mundys Mill Highschool 2020-2024 </p>
+        
+        <h2>Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Team Collaboration</li>
+            <li>Creative problem solving</li>
+        </ul>
+        
+        <h2>Experience</h2>
+        <ol>
+            <li><strong>Stem Mentorship</strong> - STEM NOLA (January 2025)</li>
+            <li><strong>Attendant</strong> - Tidal Wave (2023-2024)</li>
+        </ol>
+        
+        <h2>Courses Taken</h2>
+        <table>
+            <tr>
+                <th>Intro Comp/Prog</th>
+            </tr>
+            <tr>
+                <td>Digital Logic</th>
+            </tr>
+            <tr>
+                <td>Analysis/Argumentation</td>
+            </tr>
+            <tr>
+                <th>Intro African American History</th>
+            </tr>
+            <tr>
+                <th>Algebra</th>
+            </tr>
+            <tr>
+                <th>Web Development</th>
+            </tr>
+            <tr>
+                <th>Intro Programming</th>
+            </tr>
+            <tr>
+                <th>Theory of Computer</th>
+            </tr>
+            <tr>
+                <th>Info,lit,rsrc</th>
+            </tr>
+            <tr>
+                <th>Pre calculus</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
