@@ -1,1 +1,74 @@
-project 2 goes here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" type="text/css" href="resumeStyle.css">
+</head>
+<body>
+    <div id="container">
+        <div id="hd">
+            <h1>Kamya Jackson</h1>
+            <p>Email: Kamyadjackson12@gmail.com</p>
+        </div>
+
+        <div id="lnav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">My Projects</a></li>
+            </ul>
+        </div>
+
+        <div id="rnav">
+            <h3>Table of Contents</h3>
+            <ul>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#courses">Courses Taken</a></li>
+            </ul>
+        </div>
+
+        <div id="bd">
+            <h2 id="education">Education</h2>
+            <p>Computer Science - Benedict College (2024-current)</p>
+            <p>High School Diploma - Mundy's Mill High School (2020-2024)</p>
+            
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>Leadership</li>
+                <li>Team Collaboration</li>
+                <li>Creative Problem Solving</li>
+            </ul>
+            
+            <h2 id="experience">Experience</h2>
+            <ul>
+                <li><strong>STEM Mentorship</strong> - STEM NOLA (January 2025)</li>
+                <li><strong>Attendant</strong> - Tidal Wave (2023-2024)</li>
+            </ul>
+            
+            <h2 id="courses">Courses Taken</h2>
+            <table>
+                <tr><th>Intro Comp/Prog</th></tr>
+                <tr><td>Digital Logic</td></tr>
+                <tr><td>Analysis/Argumentation</td></tr>
+                <tr><td>Intro African American History</td></tr>
+                <tr><td>Algebra</td></tr>
+                <tr><td>Web Development</td></tr>
+                <tr><td>Intro Programming</td></tr>
+                <tr><td>Theory of Computer</td></tr>
+                <tr><td>Info, Lit, Rsrc</td></tr>
+                <tr><td>Pre-Calculus</td></tr>
+            </table>
+        </div>
+
+        <div id="ft">
+            <div class="hList">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
